@@ -1,0 +1,35 @@
+{
+  "name": "kalender-jawa",
+  "version": "1.0.0",
+  "description": "Kalender Jawa tradisional dengan perhitungan pasaran dan weton yang akurat",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -p 3000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "kalender",
+    "jawa",
+    "indonesia",
+    "pasaran",
+    "weton",
+    "tradisional",
+    "calendar",
+    "javanese"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/kalender-jawa.git"
+  },
+  "homepage": "https://kalender-jawa.vercel.app",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
